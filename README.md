@@ -3,7 +3,7 @@
 ## Team
 | Name | Roll number | Parts |
 |---|---|---|
-| TEAMMATE NAME | TEAMMATE ROLL NO | A, C |
+| Sri Varshitha Medarametla | 2022102030  | A, C |
 | Sasidhar Varada | 2024702015 | B, D |
 
 ## Part A: RTL simulation
