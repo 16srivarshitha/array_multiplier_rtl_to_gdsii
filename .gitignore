@@ -1,3 +1,5 @@
 sim
 gls
+mult.vcd
+*.log
 pnr/runs/
