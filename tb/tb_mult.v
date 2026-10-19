@@ -20,7 +20,7 @@ module tb_mult;
             for (j = 0; j < 16; j = j + 1) begin
                 @(negedge clk) begin a = i; b = j; end
                 repeat (2) @(posedge clk);   // 2-cycle latency
-                #1;
+                #2;
                 if (p !== i * j) begin
                     errors = errors + 1;
                     $display("MISMATCH: a=%0d b=%0d p=%0d expected=%0d", i, j, p, i * j);
