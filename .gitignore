@@ -3,3 +3,5 @@ gls
 mult.vcd
 *.log
 pnr/runs/
+pnr/run_log.txt
+pnr/last_run.log
