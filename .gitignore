@@ -5,5 +5,3 @@ mult.vcd
 pnr/runs/
 pnr/run_log.txt
 pnr/last_run.log
-pnr/run_log.txt
-pnr/last_run.log
