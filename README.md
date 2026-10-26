@@ -48,7 +48,7 @@ sta sta/sta.tcl                  # final run at T = 10 ns writes sta/mult_array_
 Worst setup slack at T = 10 ns: 7.020 ns
 Tmin = 10 - 7.020 = 2.98 ns, Fmax = 1000 / 2.98 = 335.6 MHz
 Slack at T = 2.98 ns: approximately 0
-Critical path: input register `b_r[0]` to output register `p[7]`.
+Critical path: input register `b_r[0]` to output register `p[6]`.
 
 ### Additional analysis: stricter constraints, three corners
 Run with `sta/constraints.sdc`: 10 ns clock, 0.25 ns uncertainty, 2 ns input/output delays.
